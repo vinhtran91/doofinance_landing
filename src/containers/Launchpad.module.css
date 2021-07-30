@@ -1,0 +1,11 @@
+.lauchpad{
+    padding: 10rem 3rem;
+    background-image: repeating-linear-gradient(90deg,#59C09D,#59C09D 1.4px,#00A3BB 0,#00A3BB);
+    background-size: 28px 28px;
+}
+
+.lauchpad .subtitle{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}

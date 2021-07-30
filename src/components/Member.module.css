@@ -1,0 +1,16 @@
+.member{
+    padding: 2rem;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.member img{
+    width: 40%;
+    display: block;
+    margin: 4rem auto 2rem auto;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.member .name, .member .role{
+    text-align: center;
+    margin-bottom: 1em;
+}

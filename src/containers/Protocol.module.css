@@ -1,0 +1,23 @@
+.protocol{
+    padding: 10rem 3rem;
+    background-image: repeating-linear-gradient(90deg,#59C09D,#59C09D 1.4px,#00A3BB 0,#00A3BB);
+    background-size: 28px 28px;
+}
+
+.protocol .subtitle{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.protocol .cardgroup{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));    
+    gap: 1.6rem;
+    margin: 0 auto;
+    max-width: 110rem;
+}
+.protocol .cardgroup > *{
+    margin: 0 auto;
+}

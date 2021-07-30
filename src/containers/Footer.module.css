@@ -1,0 +1,80 @@
+.footer{
+    padding: 10rem 0 5rem 0;
+    background: #012628;
+}
+
+.footer .maincontent{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.footer .maincontent .top{
+    display: flex;
+}
+
+.footer .maincontent .top > *{
+    width: 50%;
+}
+.footer .maincontent .top > * .title{
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.footer .maincontent .top > * .links{
+    display: flex;
+    flex-direction: column;
+}
+.footer .maincontent .top > * .links a{
+    color: rgba(255, 255, 255, 0.502);
+    margin-top: 1rem;
+    transition: .3s;
+}
+
+.footer .maincontent .top > * .links a[data-commingsoon]::after{
+    content: 'Comming Soon';
+    background-color: #ff2807;
+    padding: 2.5px 4px;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+    border-radius: 2px;
+    margin-left: 1em;
+    display: inline-block;
+}
+
+.footer .maincontent .top > * .links a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer .maincontent .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+    padding-top: 3rem;
+    border-top: 1px solid hsla(0,0%,100%,.5);
+}
+
+.footer .maincontent .bottom img{
+    max-height: 3rem;
+}
+
+.footer .maincontent .bottom .social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 687px){
+    .footer .maincontent .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer .maincontent .bottom .social{
+        margin-top: 1em;
+    }
+}

@@ -1,0 +1,18 @@
+.team{
+    padding-bottom: 12rem;
+}
+.team .description{
+    font-size: 2rem;
+    color: #65718e;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.team .grid{
+    display: grid;
+    padding: 0 3rem;
+    max-width: 110rem;
+    margin: 0 auto;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+}

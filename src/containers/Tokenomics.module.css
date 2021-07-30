@@ -1,0 +1,61 @@
+.tokenomics{
+    padding: 10rem 3rem 12rem 3rem;
+}
+
+.tokenomics .supply{
+    text-align: center;
+    color: #031c4e;
+    margin: 5rem 0 1.6rem 0;
+}
+
+.tokenomics .supply .number{
+    font-size: 8rem;
+    font-weight: 700;        
+}
+
+.tokenomics .supply .text{
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.tokenomics .description{
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+.tokenomics .charts{
+    display: flex;   
+    justify-content: center;     
+    align-items: center;
+}
+
+.tokenomics .charts .chart{
+    width: 50%;  
+    margin: 0 3rem;    
+}
+
+.tokenomics .charts .chart .title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #031c4e;
+    margin: 6rem 0;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1024px){
+    .tokenomics .charts{
+        flex-direction: column;
+    }
+    .tokenomics .charts .chart{
+        width: 100%;        
+    }
+}
+
+@media screen and (max-width: 678px){
+    .tokenomics .supply .number{
+        font-size: 4rem;
+    }
+    .tokenomics .supply .text{
+        font-size: 1.6rem;
+    }
+}

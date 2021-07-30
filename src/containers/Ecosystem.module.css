@@ -1,0 +1,23 @@
+.ecosystem{
+    padding: 10rem 0;
+}
+
+.ecosystem .subtitle{
+    font-size: 2rem;
+    color: #65718e;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.ecosystem .maincontent{
+    display: flex;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+@media screen and (max-width: 768px){
+    .ecosystem .maincontent{
+        flex-direction: column;
+        align-items: center;
+    }
+}

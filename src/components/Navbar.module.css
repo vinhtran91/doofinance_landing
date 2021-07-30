@@ -1,0 +1,108 @@
+.navbar{
+    padding: 4rem 1.6rem;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    color: #fff;
+}
+
+.navbar .wrapper .logo{
+    margin-right: 1em;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar .wrapper .logo img{
+    width: 15rem;
+}
+
+.navbar .wrapper{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu{
+    line-height: 1.5;    
+    display: flex;
+    align-items: center;
+}
+.navbar .menu li a{
+    padding: 1rem 2.5rem;
+}
+.navbar .whitepaper{
+    margin-left: 2.5rem;
+}
+
+.navbar .toggle{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .navbar{        
+        position: relative;        
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .wrapper{
+        width: 100%;
+    }
+
+    .navbar .menu{
+        margin-top: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;        
+        max-height: 0;      
+        overflow: hidden;  
+        transition: .5s;
+        transition-timing-function: ease-in-out;
+        width: 100%;
+    }
+
+    .navbar.show .menu{        
+        max-height: 1000px;        
+    }
+
+    .navbar .menu li a{
+        display: block;
+        padding: 1.5rem 2.5rem;        
+    }
+    .navbar .menu li:last-child{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .toggle{
+        display: inline-flex;        
+        margin-left: auto;
+        width: 2.2rem;
+        height: 2rem;
+        position: relative;       
+    }
+    .navbar .toggle::before, .navbar .toggle::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        transition: .5s;
+    }
+    .navbar .toggle::before{
+        top: 0;
+        box-shadow: 0 .9rem #fff;
+    }
+    .navbar .toggle::after{
+        bottom: 0;
+    }
+    .navbar .whitepaper{
+        margin: 0;                
+    }
+
+    .navbar.show .toggle::before{
+        transform: translateY(.9rem) rotateZ(-135deg);
+        box-shadow: none;
+    }
+    .navbar.show .toggle::after{
+        transform: translateY(-.9rem) rotateZ(135deg);
+    }
+}
