@@ -14,18 +14,18 @@ export const Protocol:FC<{}> = () => {
       <div className={s.cardgroup} >
         <Card 
           image='/images/burning-cycle.png' 
-          title='Burning Cycle'
-          description='When a token is excluded from the current pool of cryptocurrencies in circulation, it is burned. Thus, $AT will run for a total of 148 cycles. '
+          title='4% LOCKED IN LIQUIDITY POOL'
+          description='We depend on Pancake swap liquidity pools to have a market and to guarantee it we will auto add 4% tax that will be used to add DOO Token and BNB back to the pancake liquidity pool. '
         />
         <Card 
           image='/images/burn-rate.png' 
-          title='Burn Rate'
-          description='As people transact, the sum of tokens in your wallet will continue to grow indefinitely. Therefore, the burn rate for AT Finance is from 5% to 12%. '
+          title='AUTOMATIC BURNING BY THE REFLECTIONS'
+          description='Our dead wallet is like a holder, and it receives a part of 2% that is redistributed to all holders in every transaction but instead of keeping the tokens it just burns 🔥 automatically, which means we are a deflationary token. '
         />
         <Card 
           image='/images/rebase.png' 
-          title='Rebase'
-          description='This burn will cause a positive rebase when the total burned tokens exceed the target threshold and distributing 50% of the burnt supply to token holders. '
+          title='2% REDISTRIBUTED TO ALL HOLDERS'
+          description='Holders of our token can be rewarded simply by holding the token by 2% of every transaction, which is a form of in-wallet staking that does not require tokens to be locked. '
         />       
       </div>
     </section>
