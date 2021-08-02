@@ -9,7 +9,7 @@ export const Protocol:FC<{}> = () => {
     <section className={s.protocol} >
       <SectionTitle color='#fff'>Deflationary Token</SectionTitle>
       <div className={s.subtitle}> 
-        AT Finance has a unique burning mechanism automatically sent to burn address with every transaction. Burning tokens essentially eliminate them from the available stock, making them more expensive. 
+        Doo Finance has a unique burning mechanism automatically sent to burn address with every transaction. Burning tokens essentially eliminate them from the available stock, making them more expensive. 
       </div>
       <div className={s.cardgroup} >
         <Card 

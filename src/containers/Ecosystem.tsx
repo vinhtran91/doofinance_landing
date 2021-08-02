@@ -8,7 +8,7 @@ export const Ecosystem:FC<{}> = () => {
   return (
     <section className={s.ecosystem} >
       <SectionTitle>Ecosystem</SectionTitle>
-      <p className={s.subtitle} >Part of the $AT Ecosystem</p>
+      <p className={s.subtitle} >Part of the DooFinance Ecosystem</p>
       <div className={s.maincontent}>
         <Service
           title='Launchpad'

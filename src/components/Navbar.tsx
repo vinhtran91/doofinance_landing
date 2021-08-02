@@ -11,7 +11,7 @@ export const Navbar:FC<{}> = () => {
     <nav className={`${s.navbar} ${show && s.show}`}>
       <div className={s.wrapper}>
         <a href='/' className={s.logo} >
-          <img src='/images/logo-white.svg' alt='logo at' />
+          <img src='/images/logo-new.svg' alt='logo at' />
         </a>      
         <div className={s.toggle} onClick={() => setShow(!show)} />
       </div>
@@ -25,7 +25,7 @@ export const Navbar:FC<{}> = () => {
         <li><a href='#team'>Team</a></li>
         <li>
           <OutlineWhiteButton
-            href='https://github.com/ATFinance/Whitepaper/blob/main/WHITEPAPER.pdf'
+            href='#'
             text='White Paper'
             className={s.whitepaper}
           />

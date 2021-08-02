@@ -43,7 +43,7 @@ const options = {
 
 const dataOne = {
   datasets: [{
-    data: [20, 40, 12, 28],
+    data: [40, 20, 30, 10],
     backgroundColor: [
       '#038C6F', 
       '#32CAA8', 
@@ -82,7 +82,7 @@ export const Tokenomics:FC<{}> = () => {
     <section className={s.tokenomics} >
       <SectionTitle>Tokenomics</SectionTitle>
       <p className={s.supply} >
-        <span className={s.number} >100,000,000</span>
+        <span className={s.number} >1,000,000,000,000,000</span>
         &nbsp;
         <span className={s.text}>Total Supply</span>
       </p>
@@ -103,7 +103,7 @@ export const Tokenomics:FC<{}> = () => {
         </div>
         
         <div className={s.chart}>
-          <p className={s.title}>40% Pre-Sale Token Distribution</p>
+          <p className={s.title}>60% Pre-Sale Token Distribution</p>
           <Doughnut 
             type='doughnut' 
             data={dataTwo} 
