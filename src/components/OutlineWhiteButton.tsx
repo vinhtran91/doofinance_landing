@@ -5,10 +5,11 @@ export const OutlineWhiteButton:FC<{
   href: string,
   text: string,
   className?: any,
-  bgColor?: string
-}> = ({href, text, className, bgColor="#59C09D"}) => {
+  bgColor?: string,
+  textColor?: string
+}> = ({href, text, className, bgColor="#59C09D", textColor='#fff'}) => {
   return (
-    <a className={`${s.button} ${className}`} rel="noreferrer" href={href} target='_blank' style={{background: bgColor}}>
+    <a className={`${s.button} ${className}`} rel="noreferrer" href={href} target='_blank' style={{background: bgColor, color: textColor}}>
       {text}
     </a>
   )

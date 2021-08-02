@@ -6,7 +6,7 @@ import s from './Roadmap.module.css'
 
 export const Roadmap:FC<{}> = () => {
   return (
-    <section className={s.roadmap}>
+    <section id='roadmap' className={s.roadmap}>
       <SectionTitle>Roadmap</SectionTitle>
       <p className={s.description}>$AT Roadmap</p>
       <div className={s.timeline}>

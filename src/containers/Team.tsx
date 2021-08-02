@@ -17,7 +17,7 @@ const data = [
 
 export const Team:FC<{}> = () => {
   return (
-    <section className={s.team} >
+    <section id='team' className={s.team} >
       <SectionTitle>Our Team</SectionTitle>
       <p className={s.description}>$AT Team</p>
       <div className={s.grid} >
