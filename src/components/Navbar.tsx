@@ -28,6 +28,8 @@ export const Navbar:FC<{}> = () => {
             href='#'
             text='White Paper'
             className={s.whitepaper}
+            bgColor='#fff'
+            textColor='#00A3BB'
           />
         </li>
       </ul>           

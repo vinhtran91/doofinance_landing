@@ -79,7 +79,7 @@ const dataTwo = {
 
 export const Tokenomics:FC<{}> = () => {
   return (
-    <section className={s.tokenomics} >
+    <section id='tokenomics' className={s.tokenomics} >
       <SectionTitle>Tokenomics</SectionTitle>
       <p className={s.supply} >
         <span className={s.number} >1,000,000,000,000,000</span>

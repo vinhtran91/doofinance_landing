@@ -6,7 +6,7 @@ import { Service } from 'components/Service';
 
 export const Ecosystem:FC<{}> = () => {
   return (
-    <section className={s.ecosystem} >
+    <section id='ecosystem' className={s.ecosystem} >
       <SectionTitle>Ecosystem</SectionTitle>
       <p className={s.subtitle} >Part of the DooFinance Ecosystem</p>
       <div className={s.maincontent}>

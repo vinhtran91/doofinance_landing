@@ -6,7 +6,7 @@ import s from './Protocol.module.css'
 
 export const Protocol:FC<{}> = () => {
   return (
-    <section className={s.protocol} >
+    <section id='protocol' className={s.protocol} >
       <SectionTitle color='#fff'>Deflationary Token</SectionTitle>
       <div className={s.subtitle}> 
         Doo Finance has a unique burning mechanism automatically sent to burn address with every transaction. Burning tokens essentially eliminate them from the available stock, making them more expensive. 
