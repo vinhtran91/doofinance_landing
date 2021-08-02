@@ -1,3 +1,7 @@
+.point{
+    display: inline-block;
+    margin: 0 1em;
+}
 
 .point .date{
     height: 2.8rem;
