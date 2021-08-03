@@ -2,9 +2,13 @@ import React, { FC } from "react";
 import { SectionTitle } from "components/SectionTitle";
 import { TimelinePoint } from "components/TimelinePoint";
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Autoplay  } from 'swiper';
 
 import s from "./Roadmap.module.css";
 import "swiper/swiper.min.css";
+import 'swiper/components/navigation/navigation.min.css';
+
+SwiperCore.use([Navigation, Autoplay]);
 
 export const Roadmap: FC<{}> = () => {
   return (
@@ -18,6 +22,8 @@ export const Roadmap: FC<{}> = () => {
         slidesPerView={1}
         centeredSlides={true}
         centeredSlidesBounds={true}
+        navigation
+        autoplay={true}
         breakpoints={{
           "640": {
             slidesPerView: 2,            

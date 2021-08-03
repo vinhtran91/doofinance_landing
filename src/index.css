@@ -49,3 +49,14 @@ a{
 section{
   max-width: 1404px;
 }
+
+
+.swiper-button-prev::after{
+  content: '⮜';
+  color: #00A3BB;
+}
+
+.swiper-button-next::after{
+  content: '⮞';
+  color: #00A3BB;
+}
