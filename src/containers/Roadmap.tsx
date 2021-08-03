@@ -12,7 +12,24 @@ export const Roadmap: FC<{}> = () => {
       <SectionTitle>Roadmap</SectionTitle>
       <p className={s.description}>DooFinance Roadmap</p>
 
-      <Swiper className={s.timeline} spaceBetween={20} slidesPerView={4}>
+      <Swiper
+        className={s.timeline}
+        spaceBetween={20}
+        slidesPerView={1}
+        centeredSlides={true}
+        centeredSlidesBounds={true}
+        breakpoints={{
+          "640": {
+            slidesPerView: 2,            
+          },
+          "768": {
+            slidesPerView: 3,            
+          },
+          "1024": {
+            slidesPerView: 4,            
+          },
+        }}
+      >
         <SwiperSlide>
           <TimelinePoint
             date="5th August 2021"
