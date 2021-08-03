@@ -18,10 +18,10 @@ export const Footer:FC<{}> = () => {
           <div>
             <h2 className={s.title} >Ecosytem</h2>
             <div className={s.links} >
-              <a data-commingsoon href='/#'>Launchpad</a>
-              <a data-commingsoon href='/#'>Liquidity Aggregator</a>
-              <a data-commingsoon href='/#'>Farming/Staking</a>
-              <a data-commingsoon href='/#'>NFT Marketplace </a>
+              <a data-commingsoon href='/#'>Launchpad/Farming/Staking</a>
+              <a data-commingsoon href='/#'>Wallet App</a>
+              <a data-commingsoon href='/#'>NFT Marketplace</a>
+              <a data-commingsoon href='/#'>NFT Game Platform</a>
             </div>            
           </div>
         </div>
