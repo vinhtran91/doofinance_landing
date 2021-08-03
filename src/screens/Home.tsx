@@ -6,7 +6,7 @@ import { Launchpad } from 'containers/Launchpad'
 import { Tokenomics } from 'containers/Tokenomics'
 import { Protocol } from 'containers/Protocol'
 import { Roadmap } from 'containers/Roadmap'
-// import { Team } from 'containers/Team'
+/* import { Team } from 'containers/Team' */
 import { FAQ } from 'containers/FAQ'
 import { Footer } from 'containers/Footer'
 

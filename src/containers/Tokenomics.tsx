@@ -95,8 +95,8 @@ export const Tokenomics:FC<{}> = () => {
       <div className={s.charts} >
         <div className={s.chart}>
           <p className={s.title}>Token Distribution</p>
-          <Doughnut
-            // type='doughnut'     
+          <Doughnut 
+            type='doughnut' 
             data={dataOne} 
             options={options}  
           />
@@ -105,7 +105,7 @@ export const Tokenomics:FC<{}> = () => {
         <div className={s.chart}>
           <p className={s.title}>60% Pre-Sale Token Distribution</p>
           <Doughnut 
-            // type='doughnut' 
+            type='doughnut' 
             data={dataTwo} 
             options={options}  
           />
