@@ -10,13 +10,13 @@ export const Intro: FC<{}> = () => {
   return (
     <header className={s.intro} >
       <Marquee>
-        <span>Latest News! - AT Finance live at </span> &nbsp;
+        <span>Latest News! - DOO Finance Telegram Live at </span> &nbsp;
         <a 
           rel="noreferrer"
-          href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x87eba250a34e7486eab140d89e2eb5d8d113ea2d' 
+          href='https://t.me/DooFinanceEN' 
           target='_blank'
         >
-          PancakeSwap
+          Telegram Group
         </a>
       </Marquee>
       <Navbar />
@@ -25,14 +25,14 @@ export const Intro: FC<{}> = () => {
           <h1 className={s.title}>DECENTRALIZED IDO LAUNCHPAD FOR THE BINANCE SMART CHAIN</h1>
           <p className={s.subtitle}> Start your next project with us! </p>
           <OutlineWhiteButton 
-            href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x87eba250a34e7486eab140d89e2eb5d8d113ea2d'
-            text='Buy at PancakeSwap'
+            href='#'
+            text='DooFinance Contract'
             className={s.button}
             bgColor="#59C09D"
           />
           <OutlineWhiteButton 
-            href='https://github.com/TechRate/Smart-Contract-Audits/blob/main/ATFinance%20Full%20Smart%20Contract%20Security%20Audit.pdf'
-            text='Smart Contract Audit'
+            href='https://www.cx.finance/market/bnbddoo'
+            text='Swap BNBD to Doo'
             className={s.button}
             bgColor="#00A3BB"
           />

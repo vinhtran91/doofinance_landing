@@ -19,7 +19,7 @@ export const Home: FC<{}> = () => {
       <Tokenomics />
       <Protocol />
       <Roadmap />
-      <Team />
+      {/* <Team /> */}
       <FAQ />
       <Footer />
     </>

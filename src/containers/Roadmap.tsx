@@ -8,67 +8,52 @@ export const Roadmap: FC<{}> = () => {
   return (
     <section id="roadmap" className={s.roadmap}>
       <SectionTitle>Roadmap</SectionTitle>
-      <p className={s.description}>$AT Roadmap</p>
+      <p className={s.description}>DooFinance Roadmap</p>
       <div className={s.timeline}>
-        <div className={s.timeline__wrapper}>
-          <TimelinePoint
-            date="Q2 2021"
-            content={["Farming & Staking Pools", "Initial Token Release"]}
-          />
+        <TimelinePoint 
+          date='Q2 2021'
+          content={[
+            'Farming & Staking Pools',
+            'Initial Token Release',
+          ]}
+        />
 
-          <TimelinePoint
-            date="Q3 2021"
-            content={[
-              "Initial Launchpad Release (ALPHA)",
-              "Liquidity Aggregator Starting Development",
-            ]}
-          />
+         <TimelinePoint 
+          date='5th August 2021'
+          content={[
+            'Smart Contract create',
+            'Website Launch',
+          ]}
+        />
 
-          <TimelinePoint
-            date="Q4 2021"
-            content={[
-              "Launchpad Release Stable v1",
-              "Initial Liquidity Aggregator Release (ALPHA)",
-              "NFT Marketplace Starting Development",
-            ]}
-          />
+         <TimelinePoint 
+          date='5th August 2021'
+          content={[
+            'Initial Liquidity Even on Unicrypt',
+          ]}
+        />
 
-          <TimelinePoint
-            date="Q1 2022"
-            content={[
-              "Initial NFT Marketplace Release (ALPHA)",
-              "Liquidity Aggregator Release Stable v1",
-              "NFT Marketplace Release Stable V1",
-            ]}
-          />
+        <TimelinePoint 
+          date='Q4 2021'
+          content={[
+            'Liquidity Lock with Unicrypt',
+            'Launch on Pancakeswap',
+          ]}
+        />
 
-          <TimelinePoint
-            date="Q1 2022"
-            content={[
-              "Initial NFT Marketplace Release (ALPHA)",
-              "Liquidity Aggregator Release Stable v1",
-              "NFT Marketplace Release Stable V1",
-            ]}
-          />
-
-          <TimelinePoint
-            date="Q1 2022"
-            content={[
-              "Initial NFT Marketplace Release (ALPHA)",
-              "Liquidity Aggregator Release Stable v1",
-              "NFT Marketplace Release Stable V1",
-            ]}
-          />
-
-          <TimelinePoint
-            date="Q1 2022"
-            content={[
-              "Initial NFT Marketplace Release (ALPHA)",
-              "Liquidity Aggregator Release Stable v1",
-              "NFT Marketplace Release Stable V1",
-            ]}
-          />
-        </div>
+        <TimelinePoint 
+          date='December 2021'
+          content={[
+            'Launch NFT Marketplace under BSC',
+            'Launch Doo Swap Product',
+          ]}
+        />
+        <TimelinePoint 
+          date='Q1 2022'
+          content={[
+            'Launch NFT MiniGame',
+          ]}
+        />
       </div>
     </section>
   );
