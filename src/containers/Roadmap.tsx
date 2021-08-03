@@ -1,12 +1,12 @@
-import React, { FC } from 'react'
-import { SectionTitle } from 'components/SectionTitle'
-import { TimelinePoint } from 'components/TimelinePoint'
+import React, { FC } from "react";
+import { SectionTitle } from "components/SectionTitle";
+import { TimelinePoint } from "components/TimelinePoint";
 
-import s from './Roadmap.module.css'
+import s from "./Roadmap.module.css";
 
-export const Roadmap:FC<{}> = () => {
+export const Roadmap: FC<{}> = () => {
   return (
-    <section id='roadmap' className={s.roadmap}>
+    <section id="roadmap" className={s.roadmap}>
       <SectionTitle>Roadmap</SectionTitle>
       <p className={s.description}>DooFinance Roadmap</p>
       <div className={s.timeline}>
@@ -56,5 +56,5 @@ export const Roadmap:FC<{}> = () => {
         />
       </div>
     </section>
-  )
-}
+  );
+};
