@@ -51,9 +51,9 @@
     }
 }
 
-@media screen and (max-width: 678px){
+@media screen and (max-width: 900px){
     .tokenomics .supply .number{
-        font-size: 4rem;
+        font-size: 2.7rem;
     }
     .tokenomics .supply .text{
         font-size: 1.6rem;
