@@ -10,14 +10,6 @@ export const Roadmap: FC<{}> = () => {
       <SectionTitle>Roadmap</SectionTitle>
       <p className={s.description}>DooFinance Roadmap</p>
       <div className={s.timeline}>
-        <TimelinePoint 
-          date='Q2 2021'
-          content={[
-            'Farming & Staking Pools',
-            'Initial Token Release',
-          ]}
-        />
-
          <TimelinePoint 
           date='5th August 2021'
           content={[
@@ -30,6 +22,13 @@ export const Roadmap: FC<{}> = () => {
           date='5th August 2021'
           content={[
             'Initial Liquidity Even on Unicrypt',
+          ]}
+        />
+
+        <TimelinePoint 
+          date='20th August 2021'
+          content={[
+            'Presale start on Unicrypt',
           ]}
         />
 
