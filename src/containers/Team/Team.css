@@ -1,0 +1,49 @@
+.team{
+    padding-top: 3rem;
+}
+
+.team__description{
+    color: #D6D6D6;
+    text-align: center;
+}
+
+.team__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4.3rem;
+    gap: 2em .5rem;
+}
+
+.member{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-image: url('../../assets/img/avatar-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+.member__avatar{
+    width: 14.5rem;
+    height: 14.5rem;
+    padding: 1.5rem;
+    border-radius: 999px;    
+}
+
+.member__info__name{
+    display: block;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+}
+
+.member__info__role{
+    font-size: 1.4rem;
+}
+
+.member__info__socials{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
