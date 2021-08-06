@@ -56,8 +56,19 @@
 
 .introduce__content__right{
     width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.introduce__content__right img{
+    animation: bounce 1.4s ease-out infinite alternate;
+}
+
+@keyframes bounce {
+    0% { transform:translateY(-50px) }
+    100% { transform:translateY(-100px) }
+}
 
 @media (max-width: 1000px){
     .introduce__content{

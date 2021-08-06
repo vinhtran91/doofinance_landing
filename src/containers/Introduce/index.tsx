@@ -1,5 +1,5 @@
 import { Button, Navbar } from "components";
-import intro_banner from '../../assets/img/intro-banner.png'
+import intro_banner from '../../assets/img/hero-isometric.svg'
 import "./Introduce.css";
 
 export const Introduce = () => {
