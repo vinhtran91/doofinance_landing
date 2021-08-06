@@ -1,28 +1,26 @@
 {
-  "name": "doofinance_landing",
+  "name": "new-doofinace-landing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "chart.js": "^3.3.2",
-    "chartjs-plugin-datalabels": "^2.0.0-rc.1",
-    "react": "^17.0.2",
-    "react-awesome-reveal": "^3.7.2",
-    "react-chartjs-2": "^3.0.3",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "swiper": "^6.8.1",
-    "typescript": "^4.1.2"
-  },
-  "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@types/react-router-dom": "^5.1.7"
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.12",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "aos": "^2.3.4",
+    "chart.js": "^3.5.0",
+    "chartjs-plugin-datalabels": "^2.0.0",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.4",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.3.5",
+    "use-drag-scroll": "^1.0.1",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.8"
   }
 }

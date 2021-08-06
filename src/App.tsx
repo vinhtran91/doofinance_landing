@@ -1,17 +1,18 @@
-import React, { FC } from 'react'
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route
+    BrowserRouter as Router,
+    Switch,
+    Route,
 } from "react-router-dom";
-import { Home } from 'screens/Home';
- 
-export const App:FC<{}> = () => {
+import { Home } from "screens";
+
+function App() {
   return (
     <Router>
-      <Switch>
-        <Route path='/' component={Home} />
-      </Switch>
+        <Switch>
+            <Route path='/' component={Home} />
+        </Switch>
     </Router>
-  )
+  );
 }
+
+export default App;
