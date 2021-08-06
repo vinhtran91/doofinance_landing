@@ -1,0 +1,68 @@
+.ecosystem{
+    min-height: 100vh;
+    background-image:        
+        url('../../assets/img/eco-bg.png'),
+        linear-gradient(180deg, #0a0c27 0%, #0d1131 100%);
+    background-repeat: no-repeat;
+    background-position: bottom center, top center;
+    background-blend-mode: normal, overlay;    
+    padding: 10rem 0 0 0;
+}
+
+.ecosystem__subtitle{
+    font-size: 1.8rem;
+    color: #919191;
+    letter-spacing: 0.045em;
+    text-align: center;
+    margin-bottom: 6.5rem;
+}
+
+.ecosystem__grid{
+    display: grid;    
+    gap: 7rem 1.4rem;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.grid-item__icon{
+    height: 165px;
+    width: 165px;
+    padding: 57.5px;
+    background-image: url('../../assets/img/eco-circle.svg');
+}
+
+.grid-item__content{
+    flex-grow: 1;
+}
+
+.grid-item__content__title{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.grid-item__content__description{
+    color: #979797;
+    font-size: 1.8rem;
+}
+
+.ecosystem__joinnow{
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px){
+    .ecosystem__grid{
+        grid-template-columns: 1fr;
+    }
+    .grid-item{
+        flex-direction: column;
+        text-align: center;
+    }
+}
