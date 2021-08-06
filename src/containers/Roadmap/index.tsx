@@ -31,7 +31,7 @@ const data = [
     {
         date: "December 2021",
         text: [
-            "Launch NFT Marketplace inder BSC",
+            "Launch NFT Marketplace under BSC",
             "Launch Doo Swap Product"
         ]
     },

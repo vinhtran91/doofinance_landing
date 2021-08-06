@@ -12,6 +12,13 @@ import { Link } from "react-router-dom";
 
 const data = [
     {
+        avatar: vinh,
+        name: "Tran Van Vinh",
+        role: "CEO of ZoziTech and CX Exchange",
+        linkid: "",
+        twiter: ""
+    },
+    {
         avatar: phuoc,
         name: "Huynh Van Phuoc",
         role: "Blockchain & NodeJS Developer",
@@ -39,13 +46,7 @@ const data = [
         linkid: "",
         twiter: ""
     },
-    {
-        avatar: vinh,
-        name: "Tran Van Vinh",
-        role: "CEO of ZoziTech and CX Exchange",
-        linkid: "",
-        twiter: ""
-    },
+    
     {
         avatar: dat,
         name: "Le Thanh Dat",
