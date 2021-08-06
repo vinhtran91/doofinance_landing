@@ -9,7 +9,7 @@
     background-size: contain, contain, cover;
     background-repeat: no-repeat;
     background-blend-mode: normal, normal, color-dodge;
-    height: 100vh;    
+    min-height: 100vh;        
     position: relative;   
 }
 
@@ -56,4 +56,24 @@
 
 .introduce__content__right{
     width: 55%;
+}
+
+
+@media (max-width: 1000px){
+    .introduce__content{
+        flex-direction: column;
+        height: max-content;
+        padding-top: 5rem;
+    }
+
+    .introduce__content > *{
+        width: 100%;
+    }
+
+    .introduce__content__left__title{
+        font-size: 3rem;
+    }
+    .introduce__content__left__btn-group{
+        flex-direction: column;
+    }
 }

@@ -79,3 +79,17 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 3.2rem;
 }
+
+
+
+@media (max-width: 1000px){
+    .contact__wrapper{
+        flex-direction: column;
+    }
+    .contact__wrapper > *{
+        width: 100%;
+    }
+    .contact{
+        padding-bottom: 0;
+    }
+}

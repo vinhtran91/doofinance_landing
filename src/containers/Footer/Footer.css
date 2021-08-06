@@ -53,3 +53,14 @@
 .footer__content__third__text{
     margin-bottom: 1.9rem;
 }
+
+@media (max-width: 1000px){
+    .footer__content{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .footer__content__third__text__input{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

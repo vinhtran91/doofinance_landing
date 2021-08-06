@@ -61,7 +61,7 @@ export const Team = () => {
             <SectionHead behindText="MEET THE TEAM" frontText="Executive Team" />
             <p className="container team__description" >The Circleex Team combines a passion for esports, industry experise & proven record in finance, development, marketing & licensing.</p>
             <div className="container team__grid" >
-            {data.map(_e => <Member {..._e} />)}
+            {data.map(_e => <Member key={_e.avatar} {..._e} />)}
             </div>
         </section>
     )

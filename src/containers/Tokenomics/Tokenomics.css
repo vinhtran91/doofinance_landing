@@ -59,3 +59,26 @@
     width: 8px;
     border-radius: 999px;
 }
+
+@media (max-width: 1000px){
+    .tokenomics__charts{
+        grid-template-columns: 1fr;
+    }
+
+    .tokenomics__supply__number{
+        font-size: 3rem;
+    }
+
+    .tokenomics__chart__content__labels{
+        width: max-content;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px){
+    .tokenomics__chart{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

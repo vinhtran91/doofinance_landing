@@ -56,3 +56,13 @@
     width: max-content;
     margin: 0 auto;
 }
+
+@media (max-width: 1000px){
+    .ecosystem__grid{
+        grid-template-columns: 1fr;
+    }
+    .grid-item{
+        flex-direction: column;
+        text-align: center;
+    }
+}

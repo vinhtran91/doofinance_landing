@@ -52,3 +52,15 @@
     font-weight: 500;    
     color: #979797;
 }
+
+@media (max-width: 1000px){
+    .protocol__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .protocol__card{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
