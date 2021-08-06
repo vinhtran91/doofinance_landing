@@ -15,15 +15,15 @@ export const Introduce = () => {
             BINANCE SMART CHAIN
           </h2>
           <p className="introduce__content__left__subtitle">
-            Accusantium asperiores consectetur exercitationem fugiat harum
-            provident quisquam reiciendi.
+          <br />
+          Start your next project with us!
           </p>
           <div className="introduce__content__left__btn-group">
             <a href="/#">
-              <Button bgColor="#00A3BB">SIGN UP TO JOIN</Button>
+              <Button bgColor="#00A3BB">DooFinance Contract</Button>
             </a>
-            <a href="/#">
-              <Button bgColor="#59C09D">TOKENS DISTRIBUTION</Button>
+            <a href="https://www.cx.finance/market/bnbddoo">
+              <Button bgColor="#59C09D">Swap BNBD to DOO</Button>
             </a>
           </div>
           <div className="introduce__content__left__socials">
