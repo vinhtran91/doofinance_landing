@@ -1,48 +1,27 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "sourceMap": false,
-    "rootDir": "src",
-    "allowJs": false,
-    "strict": true,
-    "noImplicitReturns": true,
-    "forceConsistentCasingInFileNames": true,
-    "suppressImplicitAnyIndexErrors": false,
-    "noUnusedLocals": true,
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "types": [
-      "node",
-      "jest"
-    ],
-    "typeRoots": [
-      "./node_modules/@types"
-    ],
+    "baseUrl": "./src/",
     "target": "es5",
-    "module": "esnext",
     "lib": [
-      "es2015",
       "dom",
-      "es2017"
+      "dom.iterable",
+      "esnext"
     ],
+    "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "noImplicitAny": false,
     "isolatedModules": true,
-    "noFallthroughCasesInSwitch": true
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
   "include": [
-    "./src/assets",
-    "./src",
-    "./images.d.ts"
-  ],
-  "exclude": [
-    "./node_modules",
-    "./src/*.test.*",
-    "./src/charting_library"
+    "src"
   ]
 }
