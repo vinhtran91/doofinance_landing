@@ -44,7 +44,7 @@ export const Introduce = () => {
             </a>
 
             {/* Twiter */}
-            <a href="/#">
+            <a href="https://twitter.com/DooFinance">
                 <svg
                 width="14"
                 height="12"
@@ -60,7 +60,7 @@ export const Introduce = () => {
             </a>
 
             {/* Telegram */}
-            <a href="/#">
+            <a href="https://t.me/DooFinanceEN">
                 <svg
                 width="14"
                 height="11"
