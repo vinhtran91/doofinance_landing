@@ -134,9 +134,9 @@ export const Tokenomics = () => {
                         />
                     </div>
                     <div className="tokenomics__chart__content" >
-                        <h3 className="tokenomics__chart__content__title">
+                        {/* <h3 className="tokenomics__chart__content__title">
                             60% Pre-Sale Token Distribution
-                        </h3>
+                        </h3> */}
                         <div className="tokenomics__chart__content__labels" >
                             { dataTwo.labels.map(renderLabel) }
                         </div>

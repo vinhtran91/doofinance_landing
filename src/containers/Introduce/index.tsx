@@ -10,8 +10,8 @@ export const Introduce = () => {
       <div className="container introduce__content">
         <div className="introduce__content__left">
           <h2 className="introduce__content__left__title">
-            DECENTRALIZED IDO <br />
-            LAUNCHPAD FOR THE <br />
+            DECENTRALIZED FINANCE ECOSYSTEM <br />
+            FOR THE<br />
             BINANCE SMART CHAIN
           </h2>
           <p className="introduce__content__left__subtitle">
