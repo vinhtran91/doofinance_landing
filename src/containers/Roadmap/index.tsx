@@ -10,7 +10,8 @@ const data = [
         date: "5th August 2021",
         text: [
             "Smart Contact create",
-            "Website Launch"
+            "Website Launch",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
         ]
     },
     {
@@ -25,7 +26,8 @@ const data = [
         date: "Q4 2021",
         text: [
             "Liquidity Lock with Unicrypt",
-            "Launch on Pancakeswap"
+            "Launch on Pancakeswap",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
         ]
     },
     {
@@ -46,17 +48,18 @@ export const Roadmap = () => {
     const ref = useRef(null);
     useDragScroll({
         sliderRef: ref
-    })
+    }) 
 
     return (
         <section id="roadmap" className="roadmap">
             <SectionHead frontText="Our Roandmap" behindText="ROADMAP" />
 
             <div className="roadmap__timeline" >
-                <div className="container roadmap__timeline__wrapper" ref={ref} >
+                <div className="roadmap__timeline__wrapper" ref={ref} >
                     <div className="roadmap__timeline__wrapper__top" >
                         {data.filter((e, i) => i % 2 === 0).map((_e, i) => <TimelineNode key={i} {..._e} />)}
                     </div>
+
                     <div className="roadmap__timeline__wrapper__bottom" >
                         {data.filter((e, i) => i % 2 === 1).map((_e, i) => <TimelineNode key={i} {..._e} />)}
                     </div>
