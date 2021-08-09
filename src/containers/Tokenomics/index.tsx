@@ -43,20 +43,22 @@ const options = {
 
 const dataOne = {
     datasets: [{
-        data: [40, 20, 30, 10],
+        data: [5, 20, 10, 15, 50],
         backgroundColor: [
             '#59C0C0',
             '#00A3BB',
             '#39A582',
             '#349A83',
+            '#FF0000',
         ],
         borderWidth: 2,
     }],
     labels: [
+        'Private Sale',
         'Pre-Sale',
         'Marketing Development and Team',
         'Liquidity',
-        'Community Activity Voting for Growth'
+        'Burn'
     ],
 }
 
@@ -132,9 +134,9 @@ export const Tokenomics = () => {
                         />
                     </div>
                     <div className="tokenomics__chart__content" >
-                        <h3 className="tokenomics__chart__content__title">
+                        {/* <h3 className="tokenomics__chart__content__title">
                             60% Pre-Sale Token Distribution
-                        </h3>
+                        </h3> */}
                         <div className="tokenomics__chart__content__labels" >
                             { dataTwo.labels.map(renderLabel) }
                         </div>

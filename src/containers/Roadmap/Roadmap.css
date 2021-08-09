@@ -21,7 +21,7 @@
 .timeline_node{
     display: inline-flex;
     flex-direction: column;
-    width: 38rem;
+    width: 40rem;
     height: max-content;
     position: relative;
     padding-bottom: 1em;
@@ -36,6 +36,9 @@
     width: max-content;    
     display: flex;
     align-items: flex-end;
+    justify-content: space-evenly;
+    min-width: 100%;
+    padding-left: 1em;
 }
 
 .roadmap__timeline__wrapper__top .timeline_node{
@@ -65,8 +68,11 @@
 
 .roadmap__timeline__wrapper__bottom{
     width: max-content;
-    padding-left: 19.5rem;
+    padding-left: 21rem;
     border-top: 2px solid #59C09D;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .roadmap__timeline__wrapper__bottom .timeline_node{
@@ -95,46 +101,47 @@
     background-color: #00A3BB;
 }
 
-.roadmap__timeline__wrapper__top::before,
-.roadmap__timeline__wrapper__bottom::before{
-    content: "";
-    display: inline-block;
-    width: 1em;
-}
-
-
-
-@media (min-width: 640px) {    
-    .roadmap__timeline__wrapper__top::before,
-    .roadmap__timeline__wrapper__bottom::before{
-        width: calc(50vw - 270px);
+@media (min-width: 640px) {
+    .roadmap__timeline__wrapper__top{
+        padding-left: calc(50vw - 270px);
+    }   
+    .roadmap__timeline__wrapper__bottom{
+        padding-left: calc(50vw - 270px + 19.5rem);
     }
 }
 
 @media (min-width: 768px) {    
-    .roadmap__timeline__wrapper__top::before,
-    .roadmap__timeline__wrapper__bottom::before{
-        width: calc(50vw - 360px);
+    .roadmap__timeline__wrapper__top{
+        padding-left: calc(50vw - 360px);
+    }   
+    .roadmap__timeline__wrapper__bottom{
+        padding-left: calc(50vw - 360px + 19.5rem);
     }
 }
 
 @media (min-width: 1024px) {    
-    .roadmap__timeline__wrapper__top::before,
-    .roadmap__timeline__wrapper__bottom::before{
-        width: calc(50vw - 480px);
+    .roadmap__timeline__wrapper__top{
+        padding-left: calc(50vw - 480px);
+    }   
+    .roadmap__timeline__wrapper__bottom{
+        padding-left: calc(50vw - 480px + 19.5rem);
     }
 }
 
 @media (min-width: 1280px) {    
-    .roadmap__timeline__wrapper__top::before,
-    .roadmap__timeline__wrapper__bottom::before{
-        width: calc(50vw - 570px);
+    .roadmap__timeline__wrapper__top{
+        padding-left: calc(50vw - 570px);
+    }   
+    .roadmap__timeline__wrapper__bottom{
+        padding-left: calc(50vw - 570px + 19.5rem);
     }
 }
 
 @media (min-width: 1536px) {    
-    .roadmap__timeline__wrapper__top::before,
-    .roadmap__timeline__wrapper__bottom::before{
-        width: calc(50vw - 660px);
+    .roadmap__timeline__wrapper__top{
+        padding-left: calc(50vw - 660px);
+    }   
+    .roadmap__timeline__wrapper__bottom{
+        padding-left: calc(50vw - 660px + 19.5rem);
     }
 }

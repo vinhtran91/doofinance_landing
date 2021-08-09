@@ -1,7 +1,7 @@
 .button{
     border: none;
     border-radius: 999px;
-    padding: 1.2rem 4rem;
+    padding: 1.2rem 3rem;
     font-weight: 600;
     transition: .3s;
     cursor: pointer;

@@ -28,10 +28,10 @@ export const Protocol = () => {
                         <img src={burn_rate} alt="Burning Rate" />
                     </div>
                     <h3 className="protocol__card__title" >
-                        AUTOMATIC BURNING BY THE REFLECTIONS
+                        4% AUTOMATIC BURNING BY THE REFLECTIONS
                     </h3>
                     <p className="protocol__card__description" >
-                        Our dead wallet is like a holder, and it receives a part of 2% that is redistributed to all holders in every transaction but instead of keeping the tokens it just burns 🔥 automatically, which means we are a deflationary token.
+                        Our dead wallet is like a holder, and it receives a part of 4% that is redistributed to all holders in every transaction but instead of keeping the tokens it just burns 🔥 automatically, which means we are a deflationary token.
                     </p>
                 </div>
                 

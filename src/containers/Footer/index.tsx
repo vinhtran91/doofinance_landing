@@ -31,7 +31,7 @@ export const Footer = () => {
                         </a>
 
                         {/* Twiter */}
-                        <a href="/#">
+                        <a href="https://twitter.com/DooFinance">
                             <svg
                                 width="14"
                                 height="12"
@@ -47,7 +47,7 @@ export const Footer = () => {
                         </a>
 
                         {/* Telegram */}
-                        <a href="/#">
+                        <a href="https://t.me/DooFinanceEN">
                             <svg
                                 width="14"
                                 height="11"

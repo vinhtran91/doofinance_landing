@@ -7,40 +7,38 @@ import './Roadmap.css';
 
 const data = [
     {
-        date: "5th August 2021",
+        date: "Phase 1",
         text: [
-            "Smart Contact create",
-            "Website Launch",
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+            "Research and development, community building",
+            "Presale on oxbull",
+            "Pancakeswap listing",
+            "Own launchpad launch",
+            "Coingecko/Coinmarketcap listing",
+            "Start First IDO",
+            "Target 5000 holders"
         ]
     },
     {
-        date: "5th August 2021",
-        text: ["Initial Liquidity Even on Unicrypt"]
-    },
-    {
-        date: "20th August 2021",
-        text: ["Presale start on Unicrypt"]
-    },
-    {
-        date: "Q4 2021",
+        date: "Phase 2",
         text: [
-            "Liquidity Lock with Unicrypt",
-            "Launch on Pancakeswap",
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+            "Staking/Farming Launch",
+            "Dooswap Product Launch",
+            "Start Second IDO",
+            "Doo Wallet App Launch on store",
+            "Nft Marketplace Launch",
+            "Start Third IDO",
+            "Target 10k holders"
         ]
     },
     {
-        date: "December 2021",
+        date: "Phase 3",
         text: [
-            "Launch NFT Marketplace inder BSC",
-            "Launch Doo Swap Product"
+            "Nft mini Game Launch",
+            "Charting tools",
+            "More Cex listings",
+            "Target 20k Holder"
         ]
-    },
-    {
-        date: "Q1 2022",
-        text: ["Launch NFT MiniGame"]
-    }
+    },   
 ]
 
 export const Roadmap = () => {

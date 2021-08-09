@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Button, SectionHead } from 'components';
+import {/*  Button, */ SectionHead } from 'components';
 
 import launchpad from 'assets/img/launchpad.svg';
 import liquidity from 'assets/img/liquidity.svg';
@@ -7,7 +7,7 @@ import farming from 'assets/img/farming.svg';
 import market from 'assets/img/market.svg';
 
 import './Ecosystem.css';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 
 
 export const Ecosystem = () => {
@@ -37,9 +37,9 @@ export const Ecosystem = () => {
                     description="Users can easily create as many collectibles as they wish, sell them, or decide not to sell on this network."
                 />
             </div>
-            <Link to="#"  className="ecosystem__joinnow">
+            {/* <Link to="#"  className="ecosystem__joinnow">
                 <Button bgColor="#00A3BB" >JOIN NOW!</Button>
-            </Link>
+            </Link> */}
             
         </section>
     )
