@@ -104,6 +104,7 @@
     .ecosystem__screen{
         max-height: 55rem;
         max-width: 27.1rem;
+        display: none;
     }
 }
 
