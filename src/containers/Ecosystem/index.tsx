@@ -25,7 +25,7 @@ export const Ecosystem = () => {
                 <GridItem
                     className="ecosystem__launchpad"
                     icon={launchpad}
-                    title="Lauchpad"
+                    title="Launchpad"
                     description="The IDO will give community members the chance to get in on the ground floor and claim a new token on the launchpad."
                 />
                 <GridItem
