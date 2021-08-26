@@ -23,12 +23,12 @@ export const Introduce = () => {
               <Button bgColor="#00A3BB">DooFinance Contract</Button>
             </a>
             <a href="https://t.me/DOOAirdropBot">
-              <Button bgColor="#59C09D">Join DooFinance Airdrop</Button>
+              <Button bgColor="#59C09D">Claim Airdrop</Button>
             </a>
           </div>
           <div className="introduce__content__left__socials">
             {/* Facebook */}
-            <a href="/#">
+            {/* <a href="/#">
                 <svg
                 width="9"
                 height="15"
@@ -41,7 +41,7 @@ export const Introduce = () => {
                     fill="#232A41"
                 />
                 </svg>
-            </a>
+            </a> */}
 
             {/* Twiter */}
             <a href="https://twitter.com/DooFinance">
@@ -76,7 +76,7 @@ export const Introduce = () => {
             </a>
 
             {/* Github */}
-            <a href="/#">
+            {/* <a href="/#">
                 <svg
                     width="14"
                     height="11"
@@ -89,10 +89,10 @@ export const Introduce = () => {
                         fill="#232A41"
                     />
                 </svg>
-            </a>
+            </a> */}
 
             {/* Youtube */}
-            <a href="/#">
+            {/* <a href="/#">
                 <svg
                 width="16"
                 height="11"
@@ -105,7 +105,7 @@ export const Introduce = () => {
                     fill="#232A41"
                 />
                 </svg>
-            </a>
+            </a> */}
             
           </div>
         </div>
