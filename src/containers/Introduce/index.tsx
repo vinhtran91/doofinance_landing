@@ -22,8 +22,8 @@ export const Introduce = () => {
             <a href="/#">
               <Button bgColor="#00A3BB">DooFinance Contract</Button>
             </a>
-            <a href="https://www.cx.finance/market/bnbddoo">
-              <Button bgColor="#59C09D">Swap BNBD to DOO</Button>
+            <a href="https://t.me/DOOAirdropBot">
+              <Button bgColor="#59C09D">Join DooFinance Airdrop</Button>
             </a>
           </div>
           <div className="introduce__content__left__socials">
