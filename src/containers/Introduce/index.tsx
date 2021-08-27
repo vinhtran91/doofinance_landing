@@ -19,10 +19,10 @@ export const Introduce = () => {
           Start your next project with us!
           </p>
           <div className="introduce__content__left__btn-group">
-            <a href="/#">
+            <a href="/#" target="_blank">
               <Button bgColor="#00A3BB">DooFinance Contract</Button>
             </a>
-            <a href="https://t.me/DOOAirdropBot">
+            <a href="https://t.me/DOOAirdropBot" target="_blank">
               <Button bgColor="#59C09D">Claim Airdrop</Button>
             </a>
           </div>
