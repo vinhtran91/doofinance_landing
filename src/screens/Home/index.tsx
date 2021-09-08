@@ -1,4 +1,4 @@
-import { Contact, Ecosystem, Footer, Introduce, Protocol, Roadmap, Team, Tokenomics } from 'containers';
+import { Contact, Ecosystem, Footer, Introduce, Protocol, Roadmap, /* Team, */ Tokenomics } from 'containers';
 
 export const Home = () => {
     return (
@@ -9,7 +9,7 @@ export const Home = () => {
                 <Tokenomics />
                 <Protocol />
                 <Roadmap />
-                <Team />
+                {/* <Team /> */}
                 <Contact />
                 <Footer />
             </main>
