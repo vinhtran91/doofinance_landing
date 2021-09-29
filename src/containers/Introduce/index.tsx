@@ -22,7 +22,7 @@ export const Introduce = () => {
             <a href="/#" target="_blank">
               <Button bgColor="#00A3BB">DooFinance Contract</Button>
             </a>
-            <a href="https://t.me/DOOAirdropBot" target="_blank">
+            <a href="https://t.me/DooFinanceAirdropUBot" target="_blank">
               <Button bgColor="#59C09D">Claim Airdrop</Button>
             </a>
           </div>

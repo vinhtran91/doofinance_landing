@@ -39,8 +39,8 @@ export const Navbar = () => {
                     <a href="#team">Team</a>
                 </li>
                 <li>
-                    <a href="/#" target="_blank" rel="noopener noreferrer">
-                        <button className="navbar__whitepaper">WHITE PAPER</button>
+                    <a href="https://ex.udonex.com/ieo/detail/1" target="_blank" rel="noopener noreferrer">
+                        <button className="navbar__whitepaper">JOIN IEO One</button>
                     </a>
                 </li>
             </ul>
